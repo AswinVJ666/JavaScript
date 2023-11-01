@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.main-content{
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    min-height: 500px;
+    margin: 100px 0 100px 0;
+    border: solid black;
+    border-width: 0.5px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* align-content:space-around; */
+}
+.flex-div{
+    display: flex;
+    width:400px;
+    background-color: yellow;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+@media screen(max-width) {
+    
+    
